@@ -7,6 +7,13 @@
 7. Open src/main/rersources/process.bpmn with Camunda Modeler
 
 
+Branches
+1. feature/basic
+2. feature/user-interaction-task
+
+
+
+
 
 Test
 curl -i -X POST http://localhost:8080/order -d "customer=John&quantity=2&note=Veg"
