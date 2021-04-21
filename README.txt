@@ -14,4 +14,4 @@ curl -i -X POST http://localhost:8080/order -d "customer=John&quantity=2&note=Ve
 
 
 ToDo
-1. Run it using mvn coomand
+1. Run it using mvn command
