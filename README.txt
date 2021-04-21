@@ -15,3 +15,8 @@ curl -i -X POST http://localhost:8080/order -d "customer=John&quantity=2&note=Ve
 
 ToDo
 1. Run it using mvn coomand
+2. Camunda thread model?
+3. Test shutdown application before all processes are finished, check if unfinished processes are resumed after restart the application
+4. Add a scheduled task to repeatedly generate orders
+5. Add a task to a user approval before orders can be continually processed
+   
