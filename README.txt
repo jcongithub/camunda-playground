@@ -26,4 +26,3 @@ ToDo
 3. Test shutdown application before all processes are finished, check if unfinished processes are resumed after restart the application
 4. Add a scheduled task to repeatedly generate orders
 5. Add a task to a user approval before orders can be continually processed
-   
