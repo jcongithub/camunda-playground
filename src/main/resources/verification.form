@@ -1,0 +1,31 @@
+{
+  "type": "default",
+  "components": [
+    {
+      "key": "orderId",
+      "label": "Order ID",
+      "type": "textfield",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "key": "customer",
+      "label": "Customer Name",
+      "type": "textfield",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "key": "button1",
+      "label": "Good",
+      "type": "button"
+    },
+    {
+      "key": "button2",
+      "label": "Bad",
+      "type": "button"
+    }
+  ]
+}
