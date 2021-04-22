@@ -10,13 +10,25 @@
 Branches
 1. feature/basic
 2. feature/user-task
+	1. Add two restful API, one to query active user tasks, the other to complete a user task
+	--Query current active tasks
+	curl http://localhost:8080/verification/list
 
+	--Verify an order
+	curl -i -X POST http://localhost:8080/verification/verify -d "executionId=ca723f4c-a309-11eb-9166-da57f5aa08e5&passed=True"
+	
 
 
 
 
 Test
 curl -i -X POST http://localhost:8080/order -d "customer=John&quantity=2&note=Veg"
+
+--Query current active tasks
+curl http://localhost:8080/verification/list
+
+--Verify an order
+curl -i -X POST http://localhost:8080/verification/verify -d "executionId=John&passed=True"
 
 
 

@@ -13,5 +13,5 @@ public class Order implements Serializable{
 	private String custmoer;
 	private String note;
 	private int quantity;
-
+	private boolean verified;
 }
